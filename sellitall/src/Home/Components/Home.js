@@ -23,7 +23,7 @@ import WhiteSweatshirt from './images/Rectangle 201.png';
 import GreyUpholsteredCouch from './images/Rectangle 202.png';
 import FloralPainting from './images/Rectangle 203.png';
 import WoodDresser from './images/Rectangle 204.png';
-
+import Footer from './Footer';
 
 function Home(){ 
     return( 
@@ -192,6 +192,8 @@ function Home(){
 
                 </div>
             </div>
+
+            <Footer/>
 
 
 
