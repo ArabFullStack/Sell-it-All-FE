@@ -1,9 +1,4 @@
 :root{ 
-<<<<<<< HEAD
-    --yellow:yellow;
-    --blue: blue;
-}
-=======
     --blue: #10C8CD;
     --orange:#FFA830;
     --grey:#EEEEEE;
@@ -133,4 +128,3 @@ border-radius:5px;
   color:var(--blue);  
 }
 
->>>>>>> 67d61ed44cdebc403e635d1749a971bc2c7d9aaf

@@ -1,0 +1,91 @@
+:root{ 
+    --blue: #10C8CD;
+    --orange:#FFA830;
+    --grey:#EEEEEE;
+    --border-grey:#C3C7D2;
+}
+
+*{ 
+    margin:0; 
+    padding:0;
+}
+
+/*--background--*/
+.login-background-container{ 
+    background-color: var(--blue);
+    height:75vh;
+    
+}
+
+/*--white box--*/
+.login-container{ 
+    background-color:white;
+    width:500px;
+    height:300px;
+    padding:3em;
+    margin:0 auto;
+    border-radius:10px;
+    box-shadow:0px 4px 4px rgba(0, 0, 0, 0.25);
+
+} 
+
+.login-container img{ 
+    width:100px;
+   
+}
+
+
+
+.login-container p{ 
+    text-align:center;
+}
+
+.login-container form{ 
+    width:200px; 
+    margin:0 auto;
+}
+
+
+.login-form label{ 
+    font-size:13px;
+    font-weight:bold;
+}
+
+.login-form input{ 
+    width:200px;
+    padding:5px;
+    border-radius:3px;
+    border: 1px solid var(--border-grey);
+    background-color:var(--grey);
+}
+
+#submit{ 
+    background-color: var(--orange);
+    width:210px;
+    padding:6px;
+    color:white;
+    border:none;
+    border-radius:3px; 
+    margin-top:1.5em;
+    
+}
+
+/*--login account--*/
+.login-account{ 
+    display:flex;
+    justify-content:space-between;
+    width:500px; 
+    margin:1em auto; 
+    
+   
+
+}
+
+.login-account a{ 
+    color:white;
+    text-decoration:none;
+}
+
+#start{ 
+    color:black;
+}

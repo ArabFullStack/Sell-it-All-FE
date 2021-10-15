@@ -9,7 +9,7 @@ function Nav(){
                 <ul className="landing-ul">
                     <a href=""><li>Sell</li></a>
                     <a href=""><li>Buy</li></a>
-                    <a className="nav-user" href=""><li>Sign In</li></a>
+                    <a className="nav-user" href="/Login"><li>Sign In</li></a>
                 </ul>
             </nav>
 
