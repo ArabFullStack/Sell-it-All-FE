@@ -7,7 +7,7 @@ import instagram from './images/instagram.png';
 function Footer(){ 
     return( 
         <>
-           <footer className="home-footer">
+           <footer className="home-footer" >
                <div className="footer-container">
                     <ul>
                         <a href="https://twitter.com"><img src={twitter} alt="twitter"/></a>
