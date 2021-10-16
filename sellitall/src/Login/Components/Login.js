@@ -23,7 +23,7 @@ function Login(){
 
             <div className="login-account">
                 <a href=""><p>Forgot your password?</p></a>
-                <a href=""><p>Don't have an account <span id="start">Get Started</span></p></a>
+                <a href="./Signup"><p>Don't have an account <span id="start">Get Started</span></p></a>
             </div>
 
         </div>
