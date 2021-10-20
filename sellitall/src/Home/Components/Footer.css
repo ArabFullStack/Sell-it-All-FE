@@ -1,0 +1,31 @@
+:root{ 
+    --blue: #10C8CD;
+    --orange:#FFA830;
+    --grey:#EEEEEE;
+    --border-grey:#C3C7D2;
+}
+
+.home-footer{ 
+    background-color:var(--blue);
+    padding:3em;
+    text-align:center;
+} 
+
+.footer-container{ 
+    width:210px;
+    margin:0 auto;
+}
+
+.home-footer ul{ 
+    
+    display:flex; 
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+.home-footer img{ 
+    height:35px;
+    margin-right:10px;
+}
+
+

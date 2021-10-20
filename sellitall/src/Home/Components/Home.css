@@ -1,0 +1,130 @@
+:root{ 
+    --blue: #10C8CD;
+    --orange:#FFA830;
+    --grey:#EEEEEE;
+    --border-grey:#C3C7D2;
+}
+
+/*remember nav has its own styling page*/ 
+
+/*header*/
+.home-header{ 
+    background-color:var(--blue);
+    padding:1em;
+   
+}
+
+.home-h2, .home-header{ 
+   text-align:center; 
+}
+ 
+.home-h2-white{ 
+    color:white;
+}
+
+.home-sections{ 
+    display:flex;
+    justify-content:center;
+    margin:3.5em;
+  
+}
+
+.home-sections a{ 
+    text-decoration:none; 
+    list-style-type:none;
+    color:black;
+    background-color:white; 
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25); /*inset allows the shadow to be inside*/
+    border-radius:50%;  
+    padding:50px;
+    margin:1em;
+ 
+}
+
+.home-sections a:hover{ 
+    border:5px solid var(--orange);
+}
+
+.home-sections img{ 
+    height:50px;
+    vertical-align:middle;
+}
+
+.home-sections figcaption{ 
+   margin-top:3.5em;
+}
+
+.home-form { 
+    display:flex;
+    justify-content: center;
+    z-index:2; 
+    margin-top:-20px;
+
+}
+
+.home-form input{ 
+    background-color:white;
+}
+
+.search-container{ 
+    display:flex;
+  
+
+}
+
+.search-container input{ 
+padding-right:200px;
+border:1px solid var(--border-grey);
+border-radius:5px;
+}
+
+.search-container button{ 
+    background-color:var(--orange);
+    border:none;
+    border-radius:5px;
+    padding:5px;
+}
+
+
+
+.location-input{ 
+    background: url(images/location.png) no-repeat 5px 5px;
+    padding:5px 40px;
+    border-radius:5px;
+    border:1px solid var(--border-grey);
+    margin-left:10px;
+}
+
+/*item container*/
+
+.home-main{ 
+    padding-top:1em;
+}
+
+.home-grid-container{ 
+    display:grid;
+    width:800px;
+    margin:2em auto;
+    grid-auto-rows: repeat(4,1fr); /*this is so it can be an implicit grid*/
+    grid-template-columns:repeat(4,1fr);
+    grid-gap:2em;
+
+}
+
+.home-grid-container>div{ /*selects all the children*/
+    box-shadow: 0px 1px 12px rgba(0, 0, 0, 0.15); 
+    border-radius:5px;
+}
+
+.home-grid-container img{ 
+    height:170px;
+}
+
+.home-grid-container figcaption{ 
+    padding-left:7px;
+}
+
+.home-price{ 
+  color:var(--blue);  
+}
+

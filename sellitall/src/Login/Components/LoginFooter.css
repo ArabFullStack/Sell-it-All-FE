@@ -1,0 +1,30 @@
+:root{ 
+    --blue: #10C8CD;
+    --orange:#FFA830;
+    --grey:#EEEEEE;
+    --border-grey:#C3C7D2;
+}
+
+.login-home-footer{ 
+    padding:3em;
+    text-align:center;
+} 
+
+.footer-container{ 
+    width:210px;
+    margin:0 auto;
+}
+
+.login-home-footer ul{ 
+    
+    display:flex; 
+    justify-content:space-between;
+    margin-bottom:20px;
+}
+
+.login-home-footer img{ 
+    height:35px;
+    margin-right:10px;
+}
+
+
