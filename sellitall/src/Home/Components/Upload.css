@@ -1,0 +1,144 @@
+
+
+.Sell-it-title{
+    
+    padding-left: 150px;
+    margin-left: 17px;
+    margin-top: 70px;
+    margin-bottom: 8px;
+    font-size: 1.7rem;
+    font-weight: 900;
+    color:#8A8A8A;
+}
+
+
+.sell-it-all-content{
+   
+   width: 65%;
+   padding-left:42px ;
+   
+    margin: auto;
+}
+
+
+
+form{
+    color:#8A8A8A;
+    font-weight: 500;
+    display: flex;
+    flex-direction: column;
+}
+label{ 
+    margin-top: 20px;
+display: flex;
+}
+
+#Sell-it-boxes{
+    height: 25px;
+    
+    padding-left: 13px;
+}
+.Title{
+    width: 700px;
+    height: 25px;
+    margin-left: 58px;
+    
+}
+.Price{
+
+ width: 200px;
+   margin-left: 52px;
+   
+}
+.location{
+    width: 300px;
+    margin-left: 27px;
+}
+.Description{
+    width: 700px;
+    margin-left: 7px;
+    height: 80px;
+   
+    
+}
+
+
+.category-buttons-contain{
+    display: flex;
+    margin-top: 22px;
+}
+
+.Select-a-category{
+ padding-top: 39px; 
+ color:#8A8A8A;
+
+
+}
+.buttons{
+    
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    max-width: 620px;
+    margin-top: 22PX;
+    margin-bottom: 23px;
+
+}
+
+#sell-it-buttons{
+    border-radius: 10px;
+    background-color:white;
+    border: .2px solid #8A8A8A ;
+    width: 175px;
+    height: 37px;
+    margin: 8px;
+    
+}
+.add-images-container{
+    font-size: .8rem;
+    display: flex;
+   color: #8A8A8A;
+    justify-content: space-between;
+}
+
+#add-image{
+    width: 140px;
+    height: 150px;
+    border: 1.2px solid  #929497;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+
+
+}
+
+span{
+    font-size: 2rem;
+    color: #10C8CD;
+}
+
+.sell-it-cancel-buttons{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+#upload-last-buttons{
+width: 30%;
+height: 38px;
+margin-top: 33px;
+}
+
+.sell-it-button{
+    background-color:#FFA830 ;
+border: none;
+}
+.cancel-button{
+    background-color: white;
+    color: #929497 ;
+    border: 1px solid #C4C4C4;
+}
+
+
