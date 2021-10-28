@@ -110,7 +110,12 @@
     width: 25%;
     height: 43px;
     margin: 18px;
+    font-weight: 600;
     
+}
+
+#sell-it-buttons:hover{
+   background-color: #FFA830;
 }
 
 .add-images-container{
@@ -164,6 +169,7 @@
 
     background-color:#FFA830 ;
     border: none;
+    font-weight: 700;
 
 }
 .cancel-button {
