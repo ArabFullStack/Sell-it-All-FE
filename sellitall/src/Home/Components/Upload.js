@@ -12,7 +12,7 @@ export default function Upload() {
            </div>
             <div className="sell-it-all-content">
         
-           <form className="uploads-form">
+           <form className="upload-form">
                 <label className="info-form">
                     Title
                     <input class="Title" id="Sell-it-boxes" type="text" placeholder="20 Characters Max" /> 
